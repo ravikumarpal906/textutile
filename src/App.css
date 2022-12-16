@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.textForm{
+  text-align: center;
+}
+
+.from-control{
+  overflow: hidden;
+    overflow-wrap: break-word;
+    height: 200px;
+    width: 700px;
+    -webkit-box-flex: 1;
+   
+   
+    font-family: Arial, Helvetica, sans-serif;
+    
+    appearance: none;
+    font-size: 16px;
+    line-height: 22px;
+    border-radius: 10px;
+}

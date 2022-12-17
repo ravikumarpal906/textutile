@@ -28,8 +28,8 @@ export default function TextForm(props) {
         <button className='btn btn-primary mx-3' onClick={handleloClick}>convert to lowercase</button>
     </div>
     <div className='container my-3'>
-        <h2>Text summary</h2>
-        <p>{text.split(" ").length} word and {text.length} characters</p>
+        <h2>Text summary </h2>
+        {/* <p>{text.split(" ").length} word and {text.length} characters</p> */}
         <h2>Preview</h2>
         <p>{text}</p>
     </div>
